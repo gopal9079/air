@@ -1,0 +1,116 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #3f51b5;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* Set a maximum width for the content area */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow for sections */
+  }
+  
+  /* Air pollution summary styles */
+  .air-pollution-summary {
+    background-image: url("path/to/air-pollution-image.jpg"); /* Add a background image */
+    background-size: cover; /* Stretch the image to cover the section */
+    background-position: center; /* Center the image horizontally */
+    color: white; /* Text color for sections with background image */
+  }
+  
+  .air-pollution-summary h2 {
+    margin-top: 0;
+    padding: 20px;
+  }
+  
+  .air-pollution-summary p,
+  .air-pollution-summary a {
+    color: white;
+  }
+  
+  .air-pollution-summary a {
+    text-decoration: underline;
+    color: #f0f0f0;
+  }
+  
+  .air-pollution-summary a:hover {
+    color: white;
+  }
+  
+  /* Health effects styles */
+  .health-effects ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* FAQs and glossary styles */
+  .faqs,
+  .glossary {
+    margin-bottom: 20px;
+  }
+  
+  .faqs h3,
+  .glossary h3 {
+    margin-top: 0;
+  }
+  
+  .faqs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .faqs li {
+    margin-bottom: 10px;
+  }
+  
+  .faqs .question {
+    font-weight: bold;
+  }
+  
+  .glossary dl {
+    padding: 0;
+    margin: 0;
+    columns: 2; /* Two columns for glossary terms and definitions */
+  }
+  
+  .glossary dt {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+  }
+  

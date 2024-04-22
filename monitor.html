@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air Pollution Monitoring</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Air Quality Monitoring</title>
+    <link rel="stylesheet" href="monitor.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Air Pollution Monitoring</h1>
-        <div class="pollution-info">
-            <p id="location"></p>
-            <p id="aqi"></p>
+    <section class="air-quality">
+        <div class="container">
+            <h2>Air Quality Monitoring</h2>
+            <div class="monitoring-grid" id="monitoringGrid">
+                <!-- Monitoring items will be dynamically added here -->
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+
+    <script src="monitor.js"></script>
 </body>
 </html>
+
